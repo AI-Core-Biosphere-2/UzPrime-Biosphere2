@@ -64,4 +64,4 @@ MIT License
 
 ## Contact
 
-For any questions or support, please contact [Your Name/Team].
+For any questions or support, please contact Akbarali Sodikov (akbaralisodikov@arizona.edu), Davronkhon Mukhamadaliev (), Sherali Ozodov ().
