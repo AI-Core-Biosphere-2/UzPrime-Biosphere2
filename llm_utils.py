@@ -17,8 +17,7 @@ def call_llm(model_name: str, prompt: str) -> str:
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             check=True,
-            # remove the timeout or set it to something large
-            # timeout=120
+            timeout=60  # seconds
         )
         response = result.stdout.decode('utf-8').strip()
         logging.info("Received response from LLM.")
